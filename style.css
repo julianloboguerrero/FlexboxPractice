@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.container div {
+  display: flex;
+  background: grey;
+  border: 4px solid yellowgreen;
+  height: 100px;
+  margin: 4px;
+  flex: 1;
+}
+
+.one {
+  background: rgb(172, 57, 57);
+  border: 4px solid yellowgreen;
+}
